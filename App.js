@@ -36,7 +36,7 @@ export default function App() {
         }}
       >
         <Drawer.Screen name="Home" component={MainPage} />
-        <Drawer.Screen name="여누" component={LovePage} />
+        <Drawer.Screen name="Love" component={LovePage} />
       </Drawer.Navigator>
     </NavigationContainer>
   );
