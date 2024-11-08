@@ -1,1 +1,1 @@
-24.11.08 TicketPoke Develop Start
+24.11.08 TicketPoke 개발 시작
