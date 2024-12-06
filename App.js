@@ -9,6 +9,7 @@ import TestPage from './src/screen/Test';
 import TestPage2 from './src/screen/Test2';
 import HambugerPage from './src/screen/Hambuger';
 import CrollingPage from './src/screen/Crolling';
+import LoginPage from './src/screen/Login';
 const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();
 const Btn = createBottomTabNavigator();
@@ -33,7 +34,8 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator screenOptions={{headerShown: false}}>
-        <Stack.Screen name="Hambuger" component={BtmBar} />
+        <Stack.Screen name="Login" component={LoginPage} />
+        <Stack.Screen name="BtmBar" component={BtmBar} />
         <Stack.Screen name="Crolling" component={CrollingPage} />
       </Stack.Navigator>
     </NavigationContainer>

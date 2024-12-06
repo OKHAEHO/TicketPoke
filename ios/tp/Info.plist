@@ -45,6 +45,15 @@
 		</dict>
 	</dict>
 
+	<key>KAKAO_APP_KEY</key>
+		<string>8daed2d6a3d3af2cd35594e263632aba</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+    	<string>kakao8daed2d6a3d3af2cd35594e263632aba</string>
+    	<string>kakaolink</string>
+    	<string>kakaokompassauth</string>
+	</array>
+
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
 	<key>UILaunchStoryboardName</key>
