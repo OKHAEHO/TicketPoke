@@ -43,11 +43,11 @@ export default function Login() {
       setRefreshToken(tokenData.refreshToken);
       setID(profileData.id);
       setNickname(profileData.nickname);
-      console.log(accessToken, refreshToken, id, nickname);
     } catch (error) {
       console.error(error);
     }
   };
+  console.log(accessToken, refreshToken, id, nickname);
   return (
     <SafeAreaView>
       <Button title="카카오 로그인" onPress={() => handleLogin()} />
